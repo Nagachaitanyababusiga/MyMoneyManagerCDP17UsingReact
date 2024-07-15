@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.MoneyDetailItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  margin: 5px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.MoneyDetailItemtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.MoneyDetailItempara {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+.MoneyDetailItemamt {
+  font-size: 12px;
+}
+@media (min-width: 992px) {
+
+  .MoneyDetailItem{
+    height: 100px;
+    width: 400px;
+  }
+  .icon{
+    height: 75px;
+    width: 75px;
+  }
+
+  .MoneyDetailItemamt {
+    font-size: 18px;
+  }
+  .MoneyDetailItempara {
+    font-size: 18px;
+  }
+}

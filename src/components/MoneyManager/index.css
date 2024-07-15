@@ -1,0 +1,125 @@
+.outer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px;
+}
+.pCard {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 10px;
+  min-width: 60%;
+  max-width: 80%;
+  border-radius: 10px;
+}
+.card-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-width: 60%;
+  max-width: 80%;
+}
+.two-cont-cont {
+  max-width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.add-transaction {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  min-width: 60%;
+}
+.show-transaction {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-size: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-right: 10px;
+  min-width: 70%;
+  font-weight: bold;
+  font-family: Roboto;
+}
+.label {
+  color: #7e858e;
+  margin-bottom: 5px;
+}
+.input {
+  outline: none;
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 3px;
+  border-width: 1px;
+  width: 150px;
+  height: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.submit {
+  background-color: #0b69ff;
+  border-radius: 6px;
+  border-width: 0px;
+  outline: none;
+  width: 100px;
+  height: 28px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.outer-lst-itm {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.outer-lst-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.my-itm {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media (min-width: 992px) {
+  .pCard {
+    width: 80%;
+  }
+  .card-cont {
+    width: 80%;
+  }
+  .two-cont-cont {
+    width: 80%;
+  }
+  .show-transaction {
+    min-width: 50%;
+    max-width: 60%;
+    font-size: 14px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .add-transaction {
+    min-width: 40%;
+    font-size: 14px;
+    max-width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .input {
+    width: 70%;
+  }
+}
